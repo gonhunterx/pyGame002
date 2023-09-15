@@ -38,9 +38,7 @@ def main():
                 visited_starting_area = True
             else:
                 print("you have already visited the starting area...")
-            if visited_starting_area == True:
                 player = mainTown(player)
-
         else:
             print("That's not a choice...")
 
